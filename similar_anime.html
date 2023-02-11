@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="similar_anime.css">
+        <title>AnimeConnects</title>
+    </head>
+    <body>
+        <nav class="top-nav-class" id="top-nav">
+            <img src="images/icon.png" id="website-icon">
+            <a href="index.html">Home</a>
+            <a href="similar_anime.html">Similar Anime</a>
+            <a href="#">Similar Characters</a>
+            <a href="#">Anime Plots</a>
+            <a href="#">Similar Openings</a>
+            <a id="nav-icon-address"><img src="images/nav_bar.png"></a>
+        </nav>
+        <div class="search-bar-container">
+            <input type="text" id="search-bar" placeholder="Search..." name="q" anime-search>
+            <button type="submit"><img src="images/search_icon.png"></button>
+        </div>
+        <div class="anime-list-grid" data-anime-template-container>
+            <template data-anime-template>
+                <div class="anime-item">
+                    <img anime-image>
+                    <a anime-title></div>
+                </div>
+            </template>
+        </div>
+        <div style="background:red;height:200px;width:200px;"></div>
+        <script src="similar_anime.js"></script>
+    </body>
+</html>

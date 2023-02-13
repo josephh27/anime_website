@@ -1,291 +1,276 @@
 [
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/naruto.jpg",
         "title": "Naruto",
         "link": "anime_like_naruto.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/bleach.png",
         "title": "Bleach",
-        "link": "naruto_anime.html"
+        "link": "anime_like_bleach.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/hunter_hunter.jpg",
         "title": "Hunter x Hunter",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/one_piece.jpg",
         "title": "One Piece",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "Oregairu",
-        "link": "naruto_anime.html"
-    },
-    {
-        "image": "images/Naruto.jpg",
+        "image": "images/kaze_no_stigma.jpg",
         "title": "Kaze No Stigma",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/danmachi.jpg",
         "title": "Danmachi/Is It Wrong to Try to Pick Up Girls in a Dungeon?",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/nisekoi.jpg",
         "title": "Nisekoi",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/black_clover.jpg",
         "title": "Black Clover",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/seven_deadly_sins.jpg",
         "title": "Seven Deadly Sins/Nanatsu No Taizai",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/fullmetal_alchemist_brotherhood.jpg",
         "title": "Fullmetal Alchemist Brotherhood",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/vinland_saga.jpg",
         "title": "Vinland Saga",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/oresuki.jpg",
         "title": "Oresuki",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/fairy_tail.jpg",
         "title": "Fairy Tail",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/akame_ga_kill.jpg",
         "title": "Akame Ga Kill",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/attack_on_titan.jpg",
         "title": "Attack On Titan/Shingeki No Kyojin",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/no_game_no_life.jpg",
         "title": "No Game No Life",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/re_zero.jpg",
         "title": "Re:Zero",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/baka_and_test.jpg",
         "title": "Baka and Test: Summon the Beasts",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/ghost_fighter.jpg",
         "title": "Ghost Fighter/YuYu Hakusho",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/elfen_lied.jpg",
         "title": "Elfen Lied",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/domestic_girlfriend.jpg",
         "title": "Domestic Na Kanojo/Domestic Girlfriend",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/scums_wish.jpg",
         "title": "Scum's Wish/Kuzu No Honkai",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/toradora.jpg",
         "title": "Toradora",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/golden_time.jpg",
         "title": "Golden Time",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/oregairu.jpg",
         "title": "Oregairu",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/highschool_dxd.jpg",
         "title": "Highschool DXD",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/kekkaishi.jpe",
         "title": "Kekkaishi",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/garden_of_words.png",
         "title": "The Garden of Words",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/your_name.jpg",
         "title": "Your Name/Kimi No Nawa",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/kings_avatar.png",
         "title": "King's Avatar",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/demon_slayer.jpg",
         "title": "Kimetsu No Yaiba/Demon Slayer",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/my_hero_academia.jpg",
         "title": "My Hero Academia/Boku No Hero Academia",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/avatar.jpg",
         "title": "Avatar: The Last Airbender",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/castlevania.jpg",
         "title": "Castlevania",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/assassination_classroom.jpg",
         "title": "Assassination Classroom",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "Spy X Family",
+        "image": "images/spy_family.jpg",
+        "title": "Spy x Family",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/code_geass.jpg",
         "title": "Code Geass",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/death_note.jpg",
         "title": "Death Note",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/86.jpg",
         "title": "86",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/mirai_nikki.jpg",
         "title": "The Future Diary/Mirai Nikki",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/steins_gate.jpg",
         "title": "Steins Gate",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/rising_of_the_shield_hero.jpg",
         "title": "Rising of the Shield Hero",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/amagi_brilliant_park.jpg",
         "title": "Amagi Brilliant Park",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/horimiya.jpg",
         "title": "Horimiya",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/masamune_kun_revenge.jpg",
         "title": "Masamune-Kun's Revenge",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "Kaguya-sama:Love is War",
+        "image": "images/kaguya_sama.jpg",
+        "title": "Kaguya-sama: Love is War",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/my_little_monster.jpg",
         "title": "My Little Monster",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "One Punchman",
+        "image": "images/one_punch_man.jpg",
+        "title": "One Punch Man",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/noragami.jpg",
         "title": "Noragami",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "Highschool DXD",
-        "link": "naruto_anime.html"
-    },
-    {
-        "image": "images/Naruto.jpg",
+        "image": "images/kakegurui.jpg",
         "title": "Kakegurui",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/food_wars.jpg",
         "title": "Food Wars",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/classroom_of_the_elite.jpg",
         "title": "Classroom of the Elite",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/kuruko_no_basket.jpg",
         "title": "Kuruko's Basketball",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
-        "title": "Death Note",
-        "link": "naruto_anime.html"
-    },
-    {
-        "image": "images/Naruto.jpg",
+        "image": "images/sket_dance.jpg",
         "title": "Sket Dance",
         "link": "naruto_anime.html"
     },
     {
-        "image": "images/Naruto.jpg",
+        "image": "images/beelzebub.jpg",
         "title": "Beelzebub",
         "link": "naruto_anime.html"
     }

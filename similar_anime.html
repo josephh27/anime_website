@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="similar_anime.css">
+        <link rel="stylesheet" type="text/css" href="styles/similar_anime.css">
         <title>AnimeConnects</title>
     </head>
     <body>
@@ -21,15 +21,23 @@
             <input type="text" id="search-bar" placeholder="Search..." name="q" anime-search>
             <button type="submit"><img src="images/search_icon.png"></button>
         </div>
-        <div class="anime-list-grid" data-anime-template-container>
-            <template data-anime-template>
-                <div class="anime-item">
-                    <img anime-image>
-                    <a anime-title></div>
-                </div>
-            </template>
+        <div class="content-wrapper">
+            <div class="anime-list-grid" data-anime-template-container>
+                <template data-anime-template>
+                    <div class="anime-item">
+                        <img anime-image>
+                        <a anime-title></div>
+                    </div>
+                </template>
+            </div>
         </div>
-        <div style="background:red;height:200px;width:200px;"></div>
-        <script src="similar_anime.js"></script>
+        <footer>
+            <div class="footer-description">
+                <a href="privacy_policy.html">Privacy Policy</a>
+                <a href="#">About Us</a>
+                <a href="contact_us.html">Contact Us</a>
+            </div>
+        </footer>
+        <script src="scripts/similar_anime.js"></script>
     </body>
 </html>

@@ -6,10 +6,13 @@ html{
 
 body{
     margin: 0;
-    background: #0f0e0e;
+    background: #010409;
     padding: 0;
-    color: white;
-    text-align: center;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .top-nav-class{
@@ -26,20 +29,19 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .top-nav-class > a{
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
     font-weight: 500;
     font-size: 1.5rem;
     display: block;
     color:azure;
     padding: 40px 20px;
     text-align: center;
-}
-
-p{
-    font-size: 1.4rem;
-    text-align:left;
 }
 
 .top-nav-class a:nth-child(3){
@@ -105,50 +107,93 @@ nav > a:hover{
     };
 }   
 
-.content-wrapper{
+
+.search-bar-container{
+    background: green;
     display: flex;
-    justify-content: flex-start;
-    margin: 20px 50px;
+    justify-content: center;
+    margin-top: 1rem;
+    max-width: 700px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.2);
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
 }
 
-.title-container{
+.search-bar-container input{
+    max-width: 83.33%;
+    background: transparent;
+    flex: 1;    
+    border: 0;
+    outline: none;
+    padding: 24px 1.25rem;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+.search-bar-container button img{
+    width: 25px;
+}
+
+.search-bar-container button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #cac7ff;
+}
+
+
+img[anime-image]{
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+}
+
+.anime-item{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
 }
 
-.title-container img{
+.anime-list-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     width: 70%;
+    height: auto;
+    margin: 2rem auto;
 }
 
-.anime-content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.anime-list-grid .anime-item a{
+    display: block;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
-    width: 50%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color:#e9f2eb;
+    text-align: center;
+
+}
+.hide{
+    display: none
 }
 
-.title-container h1{
-    font-size: 2.5rem;
-    letter-spacing: 0.05em;
-}
-
-
-.indiv-anime{
+.footer-description{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 1.8rem;
+    font-size: 1.3rem;
     width: 100%;
+    height: 100px;
+    background: #0f182b;
 }
 
 
-.indiv-anime h2{
-    font-size: 2.5rem;
-}
-
-.anime-content-container .indiv-anime img{
-    width: 100%;
-}

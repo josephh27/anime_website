@@ -8,7 +8,10 @@ body{
     margin: 0;
     background: #0f0e0e;
     padding: 0;
+    color: white;
+    text-align: center;
 }
+
 .top-nav-class{
     position: relative;
     height: 100px;
@@ -23,7 +26,6 @@ body{
     
 }
 
-
 .top-nav-class > a{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -33,6 +35,11 @@ body{
     color:azure;
     padding: 40px 20px;
     text-align: center;
+}
+
+p{
+    font-size: 1.4rem;
+    text-align:left;
 }
 
 .top-nav-class a:nth-child(3){
@@ -98,73 +105,55 @@ nav > a:hover{
     };
 }   
 
-
-.search-bar-container{
-    background: green;
+.content-wrapper{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-    max-width: 700px;
-    margin: 20px auto;
-    background: rgba(255, 255, 255, 0.2);
-    align-items: center;
-    border-radius: 60px;
-    padding: 10px 20px;
-}
-
-.search-bar-container input{
-    max-width: 83.33%;
-    background: transparent;
-    flex: 1;    
-    border: 0;
-    outline: none;
-    padding: 24px 1.25rem;
-    font-size: 20px;
-    color: #cac7ff;
-}
-
-.search-bar-container button img{
-    width: 25px;
-}
-
-.search-bar-container button{
-    border: 0;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    background: #58629b;
-    cursor: pointer;
-}
-
-::placeholder{
-    color: #cac7ff;
-}
-
-
-img[anime-image]{
+    font-family: 'Roboto', sans-serif;
     width: 100%;
 }
 
-.anime-item{
+.title-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: red;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-.anime-list-grid{
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    background: green;
+.title-container img{
     width: 70%;
-    height: auto;
-    margin: 2rem auto;
 }
 
-.hide{
-    display: none
+.anime-content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.title-container h1{
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
 }
 
 
+.indiv-anime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
+
+.indiv-anime h2{
+    font-size: 2.5rem;
+}
+
+.anime-content-container .indiv-anime img{
+    width: 100%;
+}
+.right-description{
+    width: 30%;
+    margin: 20px 0px 20px 30px;
+    padding-top: 70px;
+}

@@ -1,0 +1,118 @@
+html{
+    height: auto;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background: #0f0e0e;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.top-nav-class{
+    position: relative;
+    height: 100px;
+    display: flex;
+    background: #282829;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+
+.top-nav-class > a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: block;
+    color:azure;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+p{
+    font-size: 1.4rem;
+    text-align:left;
+}
+
+#nav-icon-address{
+    width: 100%;
+    display: none;
+}
+
+nav > a:hover{
+    background: #856f34;
+}
+
+.top-nav-class > #website-icon{
+    display: block;
+    height: 100%;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 730px){
+    .top-nav-class > a:not(:nth-child(2)){
+        display: none;
+    }
+    .top-nav-class > #nav-icon-address{
+        display: block;
+        max-width: 80%;
+        max-height: 100%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .top-nav-class.responsive > #website-icon{
+        height: 100px;
+    }
+  
+
+    .top-nav-class.responsive > #nav-icon-address{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+
+    #nav-icon-address{
+        width: 100%;
+    }
+    .top-nav-class.responsive > a{
+        padding: 40px 0;
+        display: block;
+        width: 100%;
+    }
+    .top-nav-class.responsive {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        overflow-x: hidden;
+        padding: 0;
+        align-items: center;
+    };
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+}
+
+.content ul li{
+    font-size: 1.4rem;
+    text-align: left;
+}
+

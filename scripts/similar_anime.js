@@ -26,6 +26,14 @@ searchInput.addEventListener("input", e => {
 fetch("anime_titles.json")
     .then(res => res.json())
     .then(data => {
+        data = data.sort((first_anime, second_anime) => {
+            let x = first_anime.title.toLowerCase()
+            let y = second_anime.title.toLowerCase()
+            if (x>y){return 1}
+            if (x<y){return -1}
+            return 0;
+        })
+        console.log(data)
         animes = data.map(anime => {
             const animeItem = animeGrid.content.cloneNode(true).children[0]
             let animeImage = animeItem.querySelector("[anime-image]")
@@ -35,7 +43,7 @@ fetch("anime_titles.json")
             animeName.href = anime.link
             animeGridContainer.append(animeItem)
             return {name : anime.title, element: animeItem}
-        }
-    )
+            }   
+        )  
 })
 

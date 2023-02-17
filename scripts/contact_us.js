@@ -14,12 +14,3 @@ navButton.addEventListener("click", () => {
     }
 })
 
-nameInput.addEventListener("click", () => {
-    nameLabel.setAttribute("color", "red")
-    console.log("okay")
-})
-
-emailInput.addEventListener("click", () => {
-    emailLabel.setAttribute("color", "red")
-    console.log("okay")
-})

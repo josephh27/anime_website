@@ -9,3 +9,27 @@ navButton.addEventListener("click", () => {
         topNav.className = "top-nav-class"
     }
 })
+
+
+var isValid = function(s) {
+    let pairs = {
+        "]":"[",
+        ")":"(",
+        "}":"{"
+    };
+    let temp = [];
+    for(let i = 0; i < s.length; i++){
+        if ((Object.values(pairs)).includes(s[i])){
+            temp.push(s[i])
+        } else {
+            if (temp && (temp.pop() === pairs[s[i]])){
+                continue
+            } else {
+                return false;
+            }
+        }
+    }
+    return !(Boolean(temp));
+};
+
+let result = isValid("()");

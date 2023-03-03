@@ -13,12 +13,11 @@
             <a href="similar_anime.html">Similar Anime</a>
             <a href="#">Similar Characters</a>
             <a href="#">Anime Plots</a>
-            <a href="#">Similar Openings</a>
             <a id="nav-icon-address"><img src="images/nav_bar.png"></a>
         </nav>
         <div class="login-box">
             <h2>Contact Us</h2>
-            <form>
+            <form action="contact_results.php" method="post">
                 <div class="user-box">
                     <input type="text" name="email" required="">
                     <label for="email">Email</label>
@@ -27,9 +26,9 @@
                     <input type="text" name="name" required="">
                     <label for="name">Name</label>
                 </div>
-                <textarea placeholder="Message" class="field"></textarea>
+                <textarea placeholder="Message" class="field" name="message"></textarea>
                 <div class="button-form">
-                    <a id="submit" href="#">Submit</a>
+                    <button id="submit" href="#" name="submit">Submit</button>
                     <div id="register">
                         Don't have an account?
                         <a href="#">Register</a>
